@@ -71,7 +71,7 @@
 
 	echo "---------------------------------------------------------------------------------------------------------------------<br/><br/>";
 	$fin = microtime(true);
-	echo ($fin-$debut)."<br/><br/>";// Permet de calcul le temps d'execution du script
+	echo ($fin-$debut)."<br/><br/></br>";// Permet de calcul le temps d'execution du script
 
 
 	include "../footer.php";
