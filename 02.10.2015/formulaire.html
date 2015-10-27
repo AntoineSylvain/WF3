@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulaire</title>
+</head>
+<body>
+	<form method="post" action="traitement.php">
+		<fieldset>
+		<legend>Formulaire de satisfaction</legend>
+			nom: <input	type="text" name="login"></br></br>
+			Pass: <input	type="password" name="pass"></br></br>
+			H: <input	type="radio" name="sexe" value="h"></br></br>
+			F: <input	type="radio" name="sexe" value="f"></br></br>
+			<select name="type">
+				<option value="1">Utilisateur</option>
+				<option value="2">Administrateur</option>
+			</select></br></br>
+			content<input type="checkbox" name="content"></br></br>
+			<textarea name="txtArea"></textarea></br></br>
+			<input type="submit" name="btnSub" value="Envoyer">
+		</fieldset>
+	</form>
+
+</body>
+</html>

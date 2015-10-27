@@ -1,0 +1,102 @@
+@font-face
+{
+	font-family: ninja;
+	src: url('njnaruto.ttf');
+
+}
+
+
+body
+{
+	background-color: turquoise ;
+	background-image: url('loup.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+form
+{	
+	width: 50%;
+	margin: auto;
+	padding: 1em;
+	border:1px solid black;
+	border-radius: 50px;
+	box-shadow: 10px 10px 20px black;
+}
+form > *, form label > *
+{
+	display: block;
+	margin-bottom: 1em; 
+	width: 100%;
+	box-sizing: border-box;
+}
+#erreur
+{
+	color:red;
+}
+form label
+{
+	
+	color: red;
+	font-weight: bold;
+	
+}
+form button
+{
+	width: 30%;
+}
+#erreur
+{
+	font-size: 24px;
+	color: blue;
+	border: 1px solid green;
+	border-radius: 50px;
+	display: none;
+}
+li
+{
+	
+	list-style: none;
+	position: relative;
+	padding: 20px;
+	border-bottom: 1px solid black;
+	
+}
+ul
+{
+	padding-left: 0px;
+
+
+}
+p,span,time
+{
+	border:1px solid blue;
+	border-radius: 50px;
+	width: 500px;
+	margin: 10px;
+	padding: 5px;
+
+	
+}
+p
+{
+	font-weight: bold;
+	font-family: ninja;
+	font-size:18px;
+	background-color: lime ;
+	padding-left: 20px;
+}
+span
+{
+	font-size:15px;
+	font-style: italic;
+	background-color:pink ;
+	
+}
+time
+{
+	font-size: 12px;
+	color:gray;
+	background-color: yellow;
+	
+}

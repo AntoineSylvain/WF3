@@ -1,0 +1,52 @@
+@font-face
+{
+	font-family: ninja;
+	src: url('njnaruto.ttf');	
+
+}
+@font-face
+{
+	font-family: ginja;
+	src: url('Ginjah Ninjah.ttf');	
+
+}
+body
+{
+	text-align: center;
+	font-family: ginja;
+}
+#menu
+{
+	display:block;
+	border: 1px solid blue;
+	border-radius: 50px;
+	width: 300px;
+	text-align: center;
+	font-size: 18px;
+	font-family: ninja;
+	margin:auto;
+	margin-bottom: 30px;
+
+}
+#menu p
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+#article
+{
+	width: 70%;
+	margin: auto;
+}
+a
+{
+	color:black;
+}
+a:hover
+{
+	color:red;
+}
+li
+{
+	list-style: none;
+}
