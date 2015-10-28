@@ -20,6 +20,4 @@ foreach ($tabEleve as $ligneCSV)
 // Ne pas oublier la fermeture du fichier
 fclose($fichier);
 
-
-
  ?>
