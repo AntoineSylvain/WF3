@@ -46,6 +46,7 @@ foreach ($tab as $ligneCSV)
 	// ecriture d'une ligne au format CSV
 	fputcsv($fichier, $ligneCSV,";");
 }
+// Ne pas oublier la fermeture du fichier
 fclose($fichier);
 
  ?>
